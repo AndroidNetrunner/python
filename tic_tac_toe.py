@@ -21,7 +21,8 @@ def game_ends(play):
 play = [1,2,3,4,5,6,7,8,9]
 count = 0
 current_turn = "A"
-while not game_ends(play) and count < 9:
+#while not game_ends(play) and count < 9:
+while True:
     print(
         """
     {} | {} | {}
@@ -49,3 +50,9 @@ if count == 9 and not game_ends(play):
     print("무승부입니다!")
 else:
     print("선공이 승리하였습니다!" if current_turn == "B" else "후공이 승리하였습니다!")
+# 게임 준비
+#   게임판을 띄우기
+print()
+# 게임 진행
+
+# 게임 종료

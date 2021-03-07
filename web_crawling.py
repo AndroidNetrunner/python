@@ -18,9 +18,9 @@ print("매일경제 인기 뉴스 보러가기 ->", 'https://www.mk.co.kr/news/b
 for mli in dts:                                           # 매경 인기뉴스 헤드라인만 모아보기
     print(mli.text)
 
+print()
 bs_obj2 = bs4.BeautifulSoup(html2.read(), "html.parser")
 ul = bs_obj2.find("ul", {"class":"down_rank_news"})
 divs = ul.findAll("h2")
-
 for hli in divs:
     print(hli.text.strip())

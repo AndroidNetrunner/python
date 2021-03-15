@@ -29,7 +29,3 @@ record = datetime.datetime.now() - start
 print("""소요 시간: {}분 {}초
 오타 개수: {}""".format(record.seconds // 60, record.seconds % 60, wrong))
 print("소요 시간은" + record+ "입니다.")
-
-str(record.minutes)
-"""안녕하세요
-"""

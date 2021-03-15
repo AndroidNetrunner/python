@@ -21,8 +21,7 @@ def game_ends(play):
 play = [1,2,3,4,5,6,7,8,9]
 count = 0
 current_turn = "A"
-#while not game_ends(play) and count < 9:
-while True:
+while not game_ends(play) and count < 9:
     print(
         """
     {} | {} | {}

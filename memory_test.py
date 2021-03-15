@@ -2,6 +2,7 @@ import random
 
 numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 answer = ['A','B','C','D','E','F','G','H'] * 2
+answer = ['A','B','C','D','E','F','G','H', 'A','B','C','D','E','F','G','H']
 random.shuffle(answer)
 remained = len(numbers) // 2
 record = 0

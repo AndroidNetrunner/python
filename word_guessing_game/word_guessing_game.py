@@ -18,4 +18,3 @@ while not is_correct:
     if sorted(answer.split()) == sorted(answers):
         is_correct = True 
 print("정답을 맞히셨습니다!")
-

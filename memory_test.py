@@ -45,3 +45,4 @@ while remained:
 		numbers[int(second) - 1] = answer[int(second) - 1]
 	record += 1
 print("당신은 {}회만에 게임을 클리어하였습니다!".format(record))
+data = data.split("\n")
